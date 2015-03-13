@@ -16,7 +16,7 @@ img = cv2.imread('phoenix.jpg',1)
 
 #cv2.imshow('Phoenix',rotate(img,45))
 #cv2.imshow('Phoenix',mirror(img))
-cv2.imwrite('phoenix_rotate.jpg',rotate(img,45))
+#cv2.imwrite('phoenix_rotate.jpg',rotate(img,45))
 #cv2.imwrite('phoenix_mirror.jpg',mirror(img))
 
 cv2.waitKey(0)

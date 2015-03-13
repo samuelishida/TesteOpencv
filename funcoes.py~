@@ -4,7 +4,7 @@ import numpy
 #***************************#
 
 def rotate(img, teta):
-	rows , cols = img.shape
+	rows , cols = img.shape[:2]
 	M = cv2.getRotationMatrix2D((cols/2,rows/2),teta,1)
 	return cv2.warpAffine(img,M,(cols,rows))
 def mirror(img):
